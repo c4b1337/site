@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plans</title>
+    <link rel="stylesheet" href="plans_style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/logo.jpeg" alt="loooogooo"></a>
+        <h1><a href="https://www.example.com/">Welcome to Our Sports Website</a></h1>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:example@example.com" class="email">example@example.com</a></p>
+            <p>Phone: <a href="tel:+1234567890" class="phone">+1234567890</a></p>
+        </div>
+
+        <button class="menu-toggle">&#9776;</button>
+    </header>
+    <main>
+        <section id="filter">
+            <label for="goal-filter">Fitness Goal:</label>
+            <select id="goal-filter">
+                <option value="all">All Goals</option>
+                <option value="strength">Strength</option>
+                <option value="cardio">Cardio</option>
+                <option value="flexibility">Flexibility</option>
+            </select>
+        </section>
+
+        <section id="plans">
+            <div class="plan-card" data-goal="strength">
+                <h2>Beginner Strength Training</h2>
+                <p>A basic strength training plan for beginners to build muscle and improve strength.</p>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan-card" data-goal="cardio">
+                <h2>Intermediate Cardio Workout</h2>
+                <p>An intermediate cardio workout plan to improve cardiovascular health and endurance.</p>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan-card" data-goal="flexibility">
+                <h2>Advanced Flexibility Routine</h2>
+                <p>An advanced flexibility routine to improve range of motion and prevent injury.</p>
+                <button>Select Plan</button>
+            </div>
+        </section>
+        <section id="selected-plan">
+        </section>
+
+    </main>
+    <footer>
+        <p>Contact us at: Telegram</p>
+        <a href="https://t.me/maryyday"><img src="assets/telegram.png" alt="tg"></a>
+        <p>Address: 1234 Main St, New York, NY 10001</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
